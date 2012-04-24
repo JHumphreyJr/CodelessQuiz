@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFBFAE1E154721B7003F8E75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBFAE1D154721B7003F8E75 /* UIKit.framework */; };
+		EFBFAE20154721B7003F8E75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBFAE1F154721B7003F8E75 /* Foundation.framework */; };
+		EFBFAE22154721B7003F8E75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBFAE21154721B7003F8E75 /* CoreGraphics.framework */; };
+		EFBFAE28154721B7003F8E75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFBFAE26154721B7003F8E75 /* InfoPlist.strings */; };
+		EFBFAE2A154721B7003F8E75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFAE29154721B7003F8E75 /* main.m */; };
+		EFBFAE2E154721B7003F8E75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFAE2D154721B7003F8E75 /* AppDelegate.m */; };
+		EFBFAE31154721B8003F8E75 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBFAE2F154721B8003F8E75 /* MainStoryboard.storyboard */; };
+		EFBFAE34154721B8003F8E75 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFAE33154721B8003F8E75 /* MasterViewController.m */; };
+		EFBFAE37154721B8003F8E75 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFAE36154721B8003F8E75 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFBFAE19154721B7003F8E75 /* CodelessQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodelessQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBFAE1D154721B7003F8E75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFBFAE1F154721B7003F8E75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFBFAE21154721B7003F8E75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFBFAE25154721B7003F8E75 /* CodelessQuiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodelessQuiz-Info.plist"; sourceTree = "<group>"; };
+		EFBFAE27154721B7003F8E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFBFAE29154721B7003F8E75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFBFAE2B154721B7003F8E75 /* CodelessQuiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodelessQuiz-Prefix.pch"; sourceTree = "<group>"; };
+		EFBFAE2C154721B7003F8E75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFBFAE2D154721B7003F8E75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFBFAE30154721B8003F8E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EFBFAE32154721B8003F8E75 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		EFBFAE33154721B8003F8E75 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		EFBFAE35154721B8003F8E75 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EFBFAE36154721B8003F8E75 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFBFAE16154721B7003F8E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBFAE1E154721B7003F8E75 /* UIKit.framework in Frameworks */,
+				EFBFAE20154721B7003F8E75 /* Foundation.framework in Frameworks */,
+				EFBFAE22154721B7003F8E75 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFBFAE0E154721B7003F8E75 = {
+			isa = PBXGroup;
+			children = (
+				EFBFAE23154721B7003F8E75 /* CodelessQuiz */,
+				EFBFAE1C154721B7003F8E75 /* Frameworks */,
+				EFBFAE1A154721B7003F8E75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFBFAE1A154721B7003F8E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFAE19154721B7003F8E75 /* CodelessQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFBFAE1C154721B7003F8E75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFAE1D154721B7003F8E75 /* UIKit.framework */,
+				EFBFAE1F154721B7003F8E75 /* Foundation.framework */,
+				EFBFAE21154721B7003F8E75 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFBFAE23154721B7003F8E75 /* CodelessQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFAE2C154721B7003F8E75 /* AppDelegate.h */,
+				EFBFAE2D154721B7003F8E75 /* AppDelegate.m */,
+				EFBFAE2F154721B8003F8E75 /* MainStoryboard.storyboard */,
+				EFBFAE32154721B8003F8E75 /* MasterViewController.h */,
+				EFBFAE33154721B8003F8E75 /* MasterViewController.m */,
+				EFBFAE35154721B8003F8E75 /* DetailViewController.h */,
+				EFBFAE36154721B8003F8E75 /* DetailViewController.m */,
+				EFBFAE24154721B7003F8E75 /* Supporting Files */,
+			);
+			path = CodelessQuiz;
+			sourceTree = "<group>";
+		};
+		EFBFAE24154721B7003F8E75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFAE25154721B7003F8E75 /* CodelessQuiz-Info.plist */,
+				EFBFAE26154721B7003F8E75 /* InfoPlist.strings */,
+				EFBFAE29154721B7003F8E75 /* main.m */,
+				EFBFAE2B154721B7003F8E75 /* CodelessQuiz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFBFAE18154721B7003F8E75 /* CodelessQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBFAE3A154721B8003F8E75 /* Build configuration list for PBXNativeTarget "CodelessQuiz" */;
+			buildPhases = (
+				EFBFAE15154721B7003F8E75 /* Sources */,
+				EFBFAE16154721B7003F8E75 /* Frameworks */,
+				EFBFAE17154721B7003F8E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodelessQuiz;
+			productName = CodelessQuiz;
+			productReference = EFBFAE19154721B7003F8E75 /* CodelessQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFBFAE10154721B7003F8E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EFBFAE13154721B7003F8E75 /* Build configuration list for PBXProject "CodelessQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFBFAE0E154721B7003F8E75;
+			productRefGroup = EFBFAE1A154721B7003F8E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFBFAE18154721B7003F8E75 /* CodelessQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFBFAE17154721B7003F8E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBFAE28154721B7003F8E75 /* InfoPlist.strings in Resources */,
+				EFBFAE31154721B8003F8E75 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFBFAE15154721B7003F8E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBFAE2A154721B7003F8E75 /* main.m in Sources */,
+				EFBFAE2E154721B7003F8E75 /* AppDelegate.m in Sources */,
+				EFBFAE34154721B8003F8E75 /* MasterViewController.m in Sources */,
+				EFBFAE37154721B8003F8E75 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFBFAE26154721B7003F8E75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBFAE27154721B7003F8E75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFBFAE2F154721B8003F8E75 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBFAE30154721B8003F8E75 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFBFAE38154721B8003F8E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFBFAE39154721B8003F8E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFBFAE3B154721B8003F8E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodelessQuiz/CodelessQuiz-Prefix.pch";
+				INFOPLIST_FILE = "CodelessQuiz/CodelessQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFBFAE3C154721B8003F8E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodelessQuiz/CodelessQuiz-Prefix.pch";
+				INFOPLIST_FILE = "CodelessQuiz/CodelessQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFBFAE13154721B7003F8E75 /* Build configuration list for PBXProject "CodelessQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBFAE38154721B8003F8E75 /* Debug */,
+				EFBFAE39154721B8003F8E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBFAE3A154721B8003F8E75 /* Build configuration list for PBXNativeTarget "CodelessQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBFAE3B154721B8003F8E75 /* Debug */,
+				EFBFAE3C154721B8003F8E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFBFAE10154721B7003F8E75 /* Project object */;
+}
